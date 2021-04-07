@@ -21,7 +21,7 @@ import rs2.game.model.Position;
  */
 
 /**
- * The Force Movement {@link main.astraeus.game.model.entity.mob.update.UpdateBlock}. Only players can utilise
+ * The Force Movement {@link rs2.game.model.entity.mob.update.UpdateBlock}. Only players can utilise
  * this block.
  * <p>
  * Note: This block is used to force a player to walk to a set location. The

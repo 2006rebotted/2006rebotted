@@ -51,7 +51,7 @@ public final class Configuration {
 	/**
 	 * A string which indicates the Client's name.
 	 */
-	public static final String CLIENT_NAME = "RuneScape";
+	public static final String CLIENT_NAME = "2006Scape Client";
 
 	/**
 	 * Dumps map region images when new regions are loaded.
