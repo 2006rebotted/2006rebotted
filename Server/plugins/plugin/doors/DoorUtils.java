@@ -6,12 +6,12 @@ import java.util.stream.Stream;
 
 import com.google.common.collect.ImmutableSet;
 
-import astraeus.game.model.Direction;
-import astraeus.game.model.Position;
-import astraeus.game.model.entity.mob.player.Player;
-import astraeus.game.model.entity.object.GameObject;
-import astraeus.net.packet.out.AddObjectPacket;
-import astraeus.net.packet.out.RemoveRegionalObjectPacket;
+import rs2.game.model.Direction;
+import rs2.game.model.Position;
+import rs2.game.model.entity.mob.player.Player;
+import rs2.game.model.entity.object.GameObject;
+import rs2.net.packet.out.AddObjectPacket;
+import rs2.net.packet.out.RemoveRegionalObjectPacket;
 
 /**
  * The class that contains static-utility methods for doors.

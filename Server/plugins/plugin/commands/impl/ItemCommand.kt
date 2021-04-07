@@ -1,11 +1,10 @@
 package plugin.commands.impl
 
-import astraeus.game.event.impl.CommandEvent
-import astraeus.game.event.SubscribesTo
-import astraeus.game.model.entity.mob.player.Player
-import astraeus.game.model.entity.mob.player.PlayerRights
-import astraeus.net.packet.out.ServerMessagePacket
-import astraeus.game.model.entity.item.Item
+import rs2.game.event.impl.CommandEvent
+import rs2.game.event.SubscribesTo
+import rs2.game.model.entity.mob.player.Player
+import rs2.game.model.entity.mob.player.PlayerRights
+import rs2.game.model.entity.item.Item
 
 import plugin.commands.Command
 import plugin.commands.CommandParser

@@ -1,11 +1,11 @@
 package plugin.commands
 
-import astraeus.game.event.impl.CommandEvent
-import astraeus.game.event.EventSubscriber
-import astraeus.game.event.EventContext
+import rs2.game.event.impl.CommandEvent
+import rs2.game.event.EventSubscriber
+import rs2.game.event.EventContext
 
-import astraeus.game.model.entity.mob.player.Player
-import astraeus.game.model.entity.mob.player.PlayerRights
+import rs2.game.model.entity.mob.player.Player
+import rs2.game.model.entity.mob.player.PlayerRights
 
 abstract class Command : EventSubscriber<CommandEvent> {
 

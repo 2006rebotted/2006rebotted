@@ -1,6 +1,6 @@
 package plugin.shops;
 
-import astraeus.game.event.Event;
+import rs2.game.event.Event;
 
 public final class ShopEvent implements Event {
 	

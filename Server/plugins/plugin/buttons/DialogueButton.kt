@@ -1,10 +1,10 @@
 package plugin.buttons
 
-import astraeus.game.event.SubscribesTo
-import astraeus.game.event.impl.ButtonActionEvent
-import astraeus.game.model.entity.mob.player.Player
+import rs2.game.event.SubscribesTo
+import rs2.game.event.impl.ButtonActionEvent
+import rs2.game.model.entity.mob.player.Player
 
-import astraeus.game.model.widget.dialog.Dialogue
+import rs2.game.model.widget.dialog.Dialogue
 
 @SubscribesTo(ButtonActionEvent::class)
 class DialogueButton : ButtonClick() {

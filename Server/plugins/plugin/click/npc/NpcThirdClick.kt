@@ -1,14 +1,14 @@
 package plugin.click.npc
 
-import astraeus.game.event.EventContext
-import astraeus.game.event.EventSubscriber
-import astraeus.game.event.SubscribesTo
-import astraeus.game.event.impl.NpcThirdClickEvent
+import rs2.game.event.EventContext
+import rs2.game.event.EventSubscriber
+import rs2.game.event.SubscribesTo
+import rs2.game.event.impl.NpcThirdClickEvent
 
-import astraeus.net.packet.out.ServerMessagePacket
+import rs2.net.packet.out.ServerMessagePacket
 
-import astraeus.game.model.entity.mob.player.Player
-import astraeus.game.model.entity.mob.player.PlayerRights
+import rs2.game.model.entity.mob.player.Player
+import rs2.game.model.entity.mob.player.PlayerRights
 
 @SubscribesTo(NpcThirdClickEvent::class)
 class NpcThirdClick : EventSubscriber<NpcThirdClickEvent> {

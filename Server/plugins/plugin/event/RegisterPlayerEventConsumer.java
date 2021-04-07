@@ -2,16 +2,16 @@ package plugin.event;
 
 import java.util.logging.Logger;
 
-import astraeus.game.event.EventContext;
-import astraeus.game.event.EventSubscriber;
-import astraeus.game.event.SubscribesTo;
-import astraeus.game.model.World;
-import astraeus.game.model.entity.mob.player.Player;
-import astraeus.game.model.entity.mob.player.attr.AttributeKey;
-import astraeus.game.model.entity.mob.player.event.PostLoginEvent;
-import astraeus.game.model.entity.mob.player.event.RegisterPlayerEvent;
-import astraeus.game.model.entity.mob.update.UpdateFlag;
-import astraeus.util.LoggerUtils;
+import rs2.game.event.EventContext;
+import rs2.game.event.EventSubscriber;
+import rs2.game.event.SubscribesTo;
+import rs2.game.model.World;
+import rs2.game.model.entity.mob.player.Player;
+import rs2.game.model.entity.mob.player.attr.AttributeKey;
+import rs2.game.model.entity.mob.player.event.PostLoginEvent;
+import rs2.game.model.entity.mob.player.event.RegisterPlayerEvent;
+import rs2.game.model.entity.mob.update.UpdateFlag;
+import rs2.util.LoggerUtils;
 
 @SubscribesTo(RegisterPlayerEvent.class)
 public final class RegisterPlayerEventConsumer implements EventSubscriber<RegisterPlayerEvent> {

@@ -1,14 +1,13 @@
 package plugin.click.item
 
-import astraeus.game.event.EventContext
-import astraeus.game.event.EventSubscriber
-import astraeus.game.event.SubscribesTo
-import astraeus.game.event.impl.ItemSecondClickEvent
-import astraeus.game.model.entity.mob.player.Player
-import astraeus.game.model.entity.mob.player.PlayerRights
+import rs2.game.event.EventContext
+import rs2.game.event.EventSubscriber
+import rs2.game.event.SubscribesTo
+import rs2.game.event.impl.ItemSecondClickEvent
+import rs2.game.model.entity.mob.player.Player
+import rs2.game.model.entity.mob.player.PlayerRights
 
-import astraeus.net.packet.out.SetWidgetConfigPacket
-import astraeus.net.packet.out.ServerMessagePacket
+import rs2.net.packet.out.ServerMessagePacket
 
 @SubscribesTo(ItemSecondClickEvent::class)
 class ItemSecondClick : EventSubscriber<ItemSecondClickEvent> {	

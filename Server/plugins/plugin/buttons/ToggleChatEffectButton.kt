@@ -1,9 +1,9 @@
 package plugin.buttons
 
-import astraeus.game.event.SubscribesTo
-import astraeus.game.event.impl.ButtonActionEvent
-import astraeus.game.model.entity.mob.player.Player
-import astraeus.net.packet.out.SetWidgetConfigPacket
+import rs2.game.event.SubscribesTo
+import rs2.game.event.impl.ButtonActionEvent
+import rs2.game.model.entity.mob.player.Player
+import rs2.net.packet.out.SetWidgetConfigPacket
 
 @SubscribesTo(ButtonActionEvent::class)
 class ToggleChatEffectButton : ButtonClick() {

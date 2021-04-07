@@ -1,10 +1,8 @@
 package plugin.buttons
 
-import astraeus.game.event.SubscribesTo
-import astraeus.game.event.impl.ButtonActionEvent
-import astraeus.game.model.entity.mob.player.Player
-
-import astraeus.game.model.entity.mob.player.event.LogoutEvent
+import rs2.game.event.SubscribesTo
+import rs2.game.event.impl.ButtonActionEvent
+import rs2.game.model.entity.mob.player.Player
 
 @SubscribesTo(ButtonActionEvent::class)
 class LogoutButton : ButtonClick() {

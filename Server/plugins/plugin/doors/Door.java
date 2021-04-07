@@ -1,9 +1,9 @@
 package plugin.doors;
 
-import astraeus.game.model.Direction;
-import astraeus.game.model.Position;
-import astraeus.game.model.entity.object.GameObject;
-import astraeus.game.model.entity.object.GameObjectType;
+import rs2.game.model.Direction;
+import rs2.game.model.Position;
+import rs2.game.model.entity.object.GameObject;
+import rs2.game.model.entity.object.GameObjectType;
 
 import java.util.Objects;
 

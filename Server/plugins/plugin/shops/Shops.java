@@ -4,10 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 
-import astraeus.game.event.EventContext;
-import astraeus.game.event.EventSubscriber;
-import astraeus.game.event.SubscribesTo;
-import astraeus.game.model.entity.mob.player.Player;
+import rs2.game.event.EventContext;
+import rs2.game.event.EventSubscriber;
+import rs2.game.event.SubscribesTo;
+import rs2.game.model.entity.mob.player.Player;
 
 @SubscribesTo(ShopEvent.class)
 public final class Shops implements EventSubscriber<ShopEvent> {

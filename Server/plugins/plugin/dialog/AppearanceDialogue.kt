@@ -1,10 +1,10 @@
 package plugin.dialog
 
-import astraeus.game.model.widget.dialog.Dialogue
-import astraeus.game.model.widget.dialog.DialogueFactory
-import astraeus.game.model.widget.dialog.Expression
+import rs2.game.model.widget.dialog.Dialogue
+import rs2.game.model.widget.dialog.DialogueFactory
+import rs2.game.model.widget.dialog.Expression
 
-import astraeus.game.model.entity.mob.player.Player
+import rs2.game.model.entity.mob.player.Player
 
 class AppearanceDialogue : Dialogue() {
 	

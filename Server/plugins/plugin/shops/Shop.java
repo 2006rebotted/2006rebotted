@@ -8,16 +8,16 @@ import java.util.Objects;
 import java.util.Optional;
 import java.util.Set;
 
-import astraeus.game.GameConstants;
-import astraeus.game.model.World;
-import astraeus.game.model.entity.item.Item;
-import astraeus.game.model.entity.item.ItemContainer;
-import astraeus.game.model.entity.item.ItemContainerPolicy;
-import astraeus.game.model.entity.mob.player.Player;
-import astraeus.net.packet.out.ServerMessagePacket;
-import astraeus.net.packet.out.SetWidgetStringPacket;
-import astraeus.net.packet.out.UpdateItemsOnWidgetPacket;
-import astraeus.util.StringUtils;
+import rs2.game.GameConstants;
+import rs2.game.model.World;
+import rs2.game.model.entity.item.Item;
+import rs2.game.model.entity.item.ItemContainer;
+import rs2.game.model.entity.item.ItemContainerPolicy;
+import rs2.game.model.entity.mob.player.Player;
+import rs2.net.packet.out.ServerMessagePacket;
+import rs2.net.packet.out.SetWidgetStringPacket;
+import rs2.net.packet.out.UpdateItemsOnWidgetPacket;
+import rs2.util.StringUtils;
 
 /**
  * The container that represents a shop players can buy and sell items from.

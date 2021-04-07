@@ -1,22 +1,22 @@
 package plugin.event;
 
-import astraeus.Configuration;
-import astraeus.game.event.EventContext;
-import astraeus.game.event.EventSubscriber;
-import astraeus.game.event.SubscribesTo;
-import astraeus.game.model.entity.mob.Movement;
-import astraeus.game.model.entity.mob.player.Player;
-import astraeus.game.model.entity.mob.player.PlayerOption;
-import astraeus.game.model.entity.mob.player.Players;
-import astraeus.game.model.entity.mob.player.event.PostLoginEvent;
-import astraeus.net.packet.out.ResetCameraPositionPacket;
-import astraeus.net.packet.out.ServerMessagePacket;
-import astraeus.net.packet.out.SetPlayerOptionPacket;
-import astraeus.net.packet.out.SetPlayerSlotPacket;
-import astraeus.net.packet.out.SetPrivacyOptionPacket;
-import astraeus.net.packet.out.SetRunEnergyPacket;
-import astraeus.net.packet.out.SetSpecialAmountPacket;
-import astraeus.net.packet.out.SetWidgetConfigPacket;
+import rs2.Configuration;
+import rs2.game.event.EventContext;
+import rs2.game.event.EventSubscriber;
+import rs2.game.event.SubscribesTo;
+import rs2.game.model.entity.mob.Movement;
+import rs2.game.model.entity.mob.player.Player;
+import rs2.game.model.entity.mob.player.PlayerOption;
+import rs2.game.model.entity.mob.player.Players;
+import rs2.game.model.entity.mob.player.event.PostLoginEvent;
+import rs2.net.packet.out.ResetCameraPositionPacket;
+import rs2.net.packet.out.ServerMessagePacket;
+import rs2.net.packet.out.SetPlayerOptionPacket;
+import rs2.net.packet.out.SetPlayerSlotPacket;
+import rs2.net.packet.out.SetPrivacyOptionPacket;
+import rs2.net.packet.out.SetRunEnergyPacket;
+import rs2.net.packet.out.SetSpecialAmountPacket;
+import rs2.net.packet.out.SetWidgetConfigPacket;
 
 @SubscribesTo(PostLoginEvent.class)
 public final class PostLoginEventConsumer implements EventSubscriber<PostLoginEvent> {

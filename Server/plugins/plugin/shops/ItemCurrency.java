@@ -1,7 +1,7 @@
 package plugin.shops;
 
-import astraeus.game.model.entity.item.Item;
-import astraeus.game.model.entity.mob.player.Player;
+import rs2.game.model.entity.item.Item;
+import rs2.game.model.entity.mob.player.Player;
 
 /**
  * The currency that provides basic functionality for all tangible currencies.

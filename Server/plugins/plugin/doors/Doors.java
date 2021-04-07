@@ -3,11 +3,11 @@ package plugin.doors;
 import java.util.ArrayList;
 import java.util.List;
 
-import astraeus.game.event.EventContext;
-import astraeus.game.event.EventSubscriber;
-import astraeus.game.event.SubscribesTo;
-import astraeus.game.event.impl.DoorEvent;
-import astraeus.game.model.entity.mob.player.Player;
+import rs2.game.event.EventContext;
+import rs2.game.event.EventSubscriber;
+import rs2.game.event.SubscribesTo;
+import rs2.game.event.impl.DoorEvent;
+import rs2.game.model.entity.mob.player.Player;
 
 @SubscribesTo(DoorEvent.class)
 public final class Doors implements EventSubscriber<DoorEvent> {
