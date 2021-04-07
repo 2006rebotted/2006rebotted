@@ -1,0 +1,54 @@
+[
+  {
+    "name": "General Store",
+    "items": [
+      {
+        "id": 1931,
+        "amount": 15
+      },
+      {
+        "id": 1935,
+        "amount": 15
+      },
+      {
+        "id": 1735,
+        "amount": 15
+      },
+      {
+        "id": 7156,
+        "amount": 15
+      },
+      {
+        "id": 1755,
+        "amount": 15
+      },
+      {
+        "id": 2347,
+        "amount": 15
+      },
+      {
+        "id": 550,
+        "amount": 15
+      },
+      {
+        "id": 1925,
+        "amount": 15
+      },
+      {
+        "id": 1923,
+        "amount": 15
+      },
+      {
+        "id": 1540,
+        "amount": 50
+      },
+      {
+        "id": 380,
+        "amount": 150
+      }
+    ],
+    "restock": true,
+    "canSell": true,
+    "currency": "COINS"
+  }
+]

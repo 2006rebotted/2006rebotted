@@ -1,0 +1,72 @@
+[
+{
+  "name": "Test Command",
+  "description": "The plugin to demonstrate or to test commands.",
+  "group": "command",
+  "base": "plugin.commands.impl.TestCommand",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Reload Plugin Command",
+  "description": "The command for reloading plugins.",
+  "group": "command",
+  "base": "plugin.commands.impl.ReloadPluginCommand",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Position Command",
+  "description": "The command for telling a player his/her coordinates.",
+  "group": "command",
+  "base": "plugin.commands.impl.PositionCommand",  
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Item Command",
+  "description": "The command for spawning items.",
+  "group": "command",
+  "base": "plugin.commands.impl.ItemCommand",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Display Widget Command",
+  "description": "The command for displaying widgets.",
+  "group": "command",
+  "base": "plugin.commands.impl.DisplayWidgetCommand",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Debug Command",
+  "description": "The command for a developer to enter debug mode.",
+  "group": "command",
+  "base": "plugin.commands.impl.DebugCommand",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Set Skill Command",
+  "description": "The command setting a skill level.",
+  "group": "command",
+  "base": "plugin.commands.impl.SetSkillCommand",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+}
+]

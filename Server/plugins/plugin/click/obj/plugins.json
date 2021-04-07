@@ -1,0 +1,52 @@
+[
+{
+  "name": "Object First Click",
+  "description": "The plugin for handling the first option of an object.",
+  "group": "click",
+  "base": "plugin.click.obj.ObjectFirstClick",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Object Second Click",
+  "description": "The plugin for handling the second option of an object.",
+  "group": "click",
+  "base": "plugin.click.obj.ObjectSecondClick",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Object Third Click",
+  "description": "The plugin for handling the third option of an object.",
+  "group": "click",
+  "base": "plugin.click.obj.ObjectThirdClick",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Object Fourth Click",
+  "description": "The plugin for handling the fourth option of an object.",
+  "group": "click",
+  "base": "plugin.click.obj.ObjectFourthClick",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Object Fifth Click",
+  "description": "The plugin for handling the fifth option of an object.",
+  "group": "click",
+  "base": "plugin.click.obj.ObjectFifthClick",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+}
+]

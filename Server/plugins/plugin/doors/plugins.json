@@ -1,0 +1,12 @@
+[
+{
+  "name": "Door plugin",
+  "description": "The plugin for doors.",
+  "group": "doors",
+  "base": "plugin.doors.Doors",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+}
+]

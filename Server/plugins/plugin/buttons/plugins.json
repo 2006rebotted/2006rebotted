@@ -1,0 +1,122 @@
+[
+{
+  "name": "Logout Button",
+  "description": "The button for logging a player out.",
+  "group": "button",
+  "base": "plugin.buttons.LogoutButton",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Brightness Button",
+  "description": "The button for adjusting a players client's brightness.",
+  "group": "button",
+  "base": "plugin.buttons.BrightnessButton",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Music Volume Button",
+  "description": "The button for adjusting a players music volume.",
+  "group": "button",
+  "base": "plugin.buttons.MusicVolumeButton",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Sound Effect Volume Button",
+  "description": "The button for adjusting a players sound effects volume.",
+  "group": "button",
+  "base": "plugin.buttons.SoundEffectVolumeButton",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Area Sound Volume Button",
+  "description": "The button for adjusting a players area sound volume.",
+  "group": "button",
+  "base": "plugin.buttons.AreaSoundVolumeButton",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Mouse Option Button",
+  "description": "The button for changing a players mouse click.",
+  "group": "button",
+  "base": "plugin.buttons.MouseOptionButton",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Toggle Chat Effects Button",
+  "description": "The button for toggling chat effects.",
+  "group": "button",
+  "base": "plugin.buttons.ToggleChatEffectButton",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Toggle Split Chat Button",
+  "description": "The button for toggling split chat.",
+  "group": "button",
+  "base": "plugin.buttons.ToggleSplitChatButton",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Toggle Accept Aid Button",
+  "description": "The button for toggling accept aid.",
+  "group": "button",
+  "base": "plugin.buttons.ToggleAcceptAidButton",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Toggle Run Button",
+  "description": "The button for toggling run.",
+  "group": "button",
+  "base": "plugin.buttons.ToggleRunButton",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Dialogue button",
+  "description": "The button for handling dialogue buttons.",
+  "group": "button",
+  "base": "plugin.buttons.DialogueButton",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Prayer button",
+  "description": "The button for handling prayer buttons.",
+  "group": "button",
+  "base": "plugin.buttons.PrayerButton",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+}
+]

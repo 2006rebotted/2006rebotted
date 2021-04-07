@@ -1,0 +1,12 @@
+[
+{
+  "name": "Magic On Item",
+  "description": "The plugin for handling using spells on items.",
+  "group": "magic",
+  "base": "plugin.click.magic.MagicOnItem",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+}
+]

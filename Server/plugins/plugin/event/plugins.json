@@ -1,0 +1,32 @@
+[
+{
+  "name": "Register Player Event",
+  "description": "The plugin for registering a player into the game world.",
+  "group": "event",
+  "base": "plugin.event.RegisterPlayerEventConsumer",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Post Login Event",
+  "description": "The plugin that allows you to perform something after a player passes login.",
+  "group": "event",
+  "base": "plugin.event.PostLoginEventConsumer",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Logout Event",
+  "description": "The plugin that allows you to perform something when a player is logging out.",
+  "group": "event",
+  "base": "plugin.event.LogoutEventConsumer",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+}
+]

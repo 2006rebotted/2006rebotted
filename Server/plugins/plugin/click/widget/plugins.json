@@ -1,0 +1,42 @@
+[
+{
+  "name": "Widget Container First Click",
+  "description": "The plugin for handling the first option of a widget container.",
+  "group": "widget",
+  "base": "plugin.click.widget.WidgetContainerFirstClick",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Widget Container Second Click",
+  "description": "The plugin for handling the second option of a widget container.",
+  "group": "widget",
+  "base": "plugin.click.widget.WidgetContainerSecondClick",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Widget Container Third Click",
+  "description": "The plugin for handling the third option of a widget container.",
+  "group": "widget",
+  "base": "plugin.click.widget.WidgetContainerThirdClick",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Widget Container Fourth Click",
+  "description": "The plugin for handling the fourth option of a widget container.",
+  "group": "widget",
+  "base": "plugin.click.widget.WidgetContainerFourthClick",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+}
+]

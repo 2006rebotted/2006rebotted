@@ -1,0 +1,65 @@
+[
+  {
+    "id": 98,
+    "name": "Forever",
+    "region": [
+      12342
+    ]
+  },
+  {
+    "id": 182,
+    "name": "Dangerous",
+    "region": [
+      12343
+    ]
+  },
+  {
+	"id": 113,
+    "name": "Lightness",
+    "region": [
+      12599
+    ]
+  },
+   {
+	"id": 56,
+    "name": "Doorways",
+    "region": [
+      12598
+    ]
+  },
+  {
+	"id": 175,
+    "name": "Spirit",
+    "region": [
+      12597
+    ]
+  },
+  {
+	"id": 125,
+    "name": "Garden",
+    "region": [
+      12853
+    ]
+  },
+  {
+	"id": 177,
+    "name": "Garden",
+    "region": [
+      12854
+    ]
+  },
+  {
+	"id": 469,
+    "name": "In the Pits",
+    "region": [
+      9808
+    ]
+  },
+  {
+	"id": 47,
+    "name": "Duel Arena",
+    "region": [
+      13363
+    ]
+  }
+]

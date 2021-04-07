@@ -1,0 +1,62 @@
+[
+{
+  "name": "Item First Click",
+  "description": "The plugin for handling the first option of an item.",
+  "group": "click",
+  "base": "plugin.click.item.ItemFirstClick",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Item Second Click",
+  "description": "The plugin for handling the second option of an item.",
+  "group": "click",
+  "base": "plugin.click.item.ItemSecondClick",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Item Third Click",
+  "description": "The plugin for handling the third option of an item.",
+  "group": "click",
+  "base": "plugin.click.item.ItemThirdClick",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Item On Item",
+  "description": "The plugin for handling using an item on another item.",
+  "group": "item",
+  "base": "plugin.click.item.ItemOnItem",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Item On Npc",
+  "description": "The plugin for handling using an item on an npc.",
+  "group": "item",
+  "base": "plugin.click.item.ItemOnNpc",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Item On Object",
+  "description": "The plugin for handling using an item on a game object.",
+  "group": "item",
+  "base": "plugin.click.item.ItemOnObject",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+}
+]

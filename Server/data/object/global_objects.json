@@ -1,0 +1,13 @@
+[
+  {
+    "id": 3192,
+    "name": "Scoreboard",
+    "type": "10",
+    "location": {
+      "x": 3085,
+      "y": 3497,
+      "height": 0
+    },
+    "orientation": "SOUTH"
+  }
+]

@@ -1,0 +1,11 @@
+[game]
+server_name = "Astraeus"
+admin_can_trade = true
+npc_bits = 12
+
+[network]
+connection_limit = 1
+game_port = 43594
+jaggrab_port = 43595
+connection_timeout = 5
+packet_limit = 30

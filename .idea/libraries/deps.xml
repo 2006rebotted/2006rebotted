@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="deps">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Server/deps/guava-19.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Server/deps/gson-2.7-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Server/deps/google-collect-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Server/deps/toml4j-0.6.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Server/deps/guava-19.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Server/deps/netty-all-4.1.2.Final-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Server/deps/gson-2.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Server/deps/toml4j-0.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Server/deps/netty-all-4.1.2.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,12 @@
+[
+{
+  "name": "Shop plugin",
+  "description": "The plugin for shops.",
+  "group": "shops",
+  "base": "plugin.shops.Shops",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+}
+]

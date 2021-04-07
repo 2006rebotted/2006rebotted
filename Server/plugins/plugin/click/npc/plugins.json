@@ -1,0 +1,32 @@
+[
+{
+  "name": "Npc First Click",
+  "description": "The plugin for handling the first option of an npc.",
+  "group": "click",
+  "base": "plugin.click.npc.NpcFirstClick",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Npc Second Click",
+  "description": "The plugin for handling the second option of an npc.",
+  "group": "click",
+  "base": "plugin.click.npc.NpcSecondClick",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+},
+{
+  "name": "Npc Third Click",
+  "description": "The plugin for handling the third option of an npc.",
+  "group": "click",
+  "base": "plugin.click.npc.NpcThirdClick",
+  "authors": [
+    "Vult-R"
+  ],
+  "version": 1.0
+}
+]
