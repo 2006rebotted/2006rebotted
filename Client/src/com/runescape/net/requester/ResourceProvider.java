@@ -4,6 +4,7 @@ import java.net.Socket;
 import java.util.zip.GZIPInputStream;
 
 import com.runescape.Client;
+import com.runescape.Configuration;
 import com.runescape.cache.FileArchive;
 import com.runescape.collection.Deque;
 import com.runescape.collection.Queue;
@@ -205,7 +206,7 @@ public final class ResourceProvider extends Provider implements Runnable {
 				if (currentTime - lastRequestTime < 4000L)
 					return;
 				lastRequestTime = currentTime;
-				socket = clientInstance.openSocket(43594 + Client.portOffset);
+				socket = clientInstance.openSocket(Configuration.server_port + Client.portOffset);
 				inputStream = socket.getInputStream();
 				outputStream = socket.getOutputStream();
 				outputStream.write(15);
