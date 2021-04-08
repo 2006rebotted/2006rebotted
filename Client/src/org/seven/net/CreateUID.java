@@ -12,7 +12,7 @@ import java.util.UUID;
 public final class CreateUID {
 
       private static final String PATH =
-                  System.getProperty("user.home") + File.separator + "astraeus.dat";
+                  System.getProperty("user.home") + File.separator + "2006Scape_UID.dat";
 
       public static String generateUID() throws Exception {
             String uuid = getUUID();
