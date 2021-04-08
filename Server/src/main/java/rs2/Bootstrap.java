@@ -81,7 +81,7 @@ public final class Bootstrap {
 		ServerBootstrap bootstrap = new ServerBootstrap();
 
 		bootstrap.group(loopGroup).channel(NioServerSocketChannel.class).childHandler(new ChannelPiplineInitializer())
-				.bind(43594).syncUninterruptibly();
+				.bind(Configuration.GAME_PORT).syncUninterruptibly();
 		Server.serverStarted = true;
 		logger.info("Network has been bound");
 		return this;
