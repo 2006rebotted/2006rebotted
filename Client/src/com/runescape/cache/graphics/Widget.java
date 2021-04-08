@@ -158,7 +158,7 @@ public final class Widget {
 			}
 
 			if (widget.type == TYPE_TEXT) {
-				widget.defaultText = buffer.readString().replaceAll("RuneScape", "Astraeus");
+				widget.defaultText = buffer.readString().replaceAll("RuneScape", "2006Scape");
 				if (widget.id == 19209) {
 					widget.defaultText.replaceAll("Total", "");
 				}
