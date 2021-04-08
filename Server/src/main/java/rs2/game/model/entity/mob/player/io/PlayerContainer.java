@@ -60,7 +60,7 @@ public final class PlayerContainer {
      */
     public void serialize(Player player) throws IOException {
     	
-    	final File dir = new File("./Data/characters/containers/");
+    	final File dir = new File("./data/characters/containers/");
     	
     	if (!dir.exists()) {
     		dir.mkdirs();
@@ -79,7 +79,7 @@ public final class PlayerContainer {
      */
     public static boolean deserialize(Player player) throws Exception {
         final File file = new File(
-                "./Data/characters/containers/" + player.getUsername() + ".json");
+                "./data/characters/containers/" + player.getUsername() + ".json");
         if (!file.exists()) {
             return false;
         }

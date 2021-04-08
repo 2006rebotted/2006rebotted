@@ -30,7 +30,7 @@ public final class PlayerDetails {
         BufferedReader reader = null;
         try {
             final File file = new File(
-                    "./Data/characters/details/" + player.getUsername() + ".json");
+                    "./data/characters/details/" + player.getUsername() + ".json");
 
             if (!file.exists()) {
                 return false;
@@ -175,7 +175,7 @@ public final class PlayerDetails {
     public void serialize() throws Exception {
         BufferedWriter writer = null;
         
-        final File dir = new File("./Data/characters/details/");
+        final File dir = new File("./data/characters/details/");
         
         if (!dir.exists()) {
         	dir.mkdirs();

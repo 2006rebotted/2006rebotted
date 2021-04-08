@@ -12,7 +12,7 @@ import rs2.util.GsonObjectParser;
 public final class NpcDefinitionParser extends GsonObjectParser<NpcDefinition> {
 
 	public NpcDefinitionParser() {
-		super("./Data/npc/npc_definitions");
+		super("./data/npc/npc_definitions");
 	}
 
 	@Override
